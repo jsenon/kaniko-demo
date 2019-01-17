@@ -1,4 +1,4 @@
-# Demo3 Knative
+# Demo5 Knative
 
 This is a Repository of sample in order to show traffic spliting
 
