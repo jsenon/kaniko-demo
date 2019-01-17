@@ -4,7 +4,7 @@ This is a Repository of sample in order to build form source with kanico and kna
 
 ## Func
 
-Build and deploy application from source code hosted in Github and push artifact to docker registry
+Build and deploy application from source [code](app.go) hosted in Github and push artifact to docker registry
 
 ## Prerequisite
 
