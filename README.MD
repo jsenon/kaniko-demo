@@ -4,6 +4,8 @@ This is a Repository of sample in order to illustrate Knative
 
 ## Func
 
+Perform demonstration with example of knative
+
 ## Demo
 
 Functionalities demo are available in demo folder
