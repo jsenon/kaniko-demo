@@ -1,0 +1,28 @@
+apiVersion: serving.knative.dev/v1alpha1
+kind: Service
+metadata:
+  name: lambda 
+  namespace: default
+spec:
+  runLatest:
+    configuration:
+      build:
+        apiVersion: build.knative.dev/v1alpha1
+        kind: Build
+        spec:
+          serviceAccountName: build-bot
+          source:
+            git:
+              url: https://github.com/jsenon/knative-demo.git
+              revision: master
+            subPath: "demo3/"
+          template:
+            name: kaniko
+            arguments:
+              - name: IMAGE
+                value: docker.io/jsenon/knative-demo-demo3:latest
+      revisionTemplate:
+        spec:
+          container:
+            image: docker.io/jsenon/knative-demo-demo3:latest
+            imagePullPolicy: Always
