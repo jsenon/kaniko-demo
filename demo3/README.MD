@@ -37,3 +37,6 @@ Perfom Test:
 ```
 curl -H "Host: lambda.default.example.com" http://af4<REDACTED>.amazonaws.com --data '{"Name": "Miam"}'
 
+## Remarks
+
+Observe that your deployment will scale down to zero if your function is never used
