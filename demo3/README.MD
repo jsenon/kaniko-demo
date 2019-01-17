@@ -4,7 +4,7 @@ This is a Repository of sample in order to use AWS Lambda function with knative
 
 ## Func
 
-Build and deploy application from source code hosted in Github and push artifact to docker registry
+Build and deploy application from source [code](app.go) hosted in Github and push artifact to docker registry
 
 ## Prerequisite
 
