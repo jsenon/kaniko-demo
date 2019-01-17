@@ -36,6 +36,7 @@ kubectl get ksvc
 Perfom Test:
 ```
 curl -H "Host: app-from-source.default.example.com" http://af4<REDACTED>.amazonaws.com
+```
 
 ## Remarks
 

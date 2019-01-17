@@ -28,6 +28,7 @@ kubectl get ksvc
 Perfom Test:
 ```
 curl -H "Host: helloworld-go.default.example.com" http://af4<REDACTED>.amazonaws.com
+```
 
 ## Remarks
 
