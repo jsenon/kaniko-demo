@@ -1,4 +1,4 @@
-# Demo Kaniko
+# Demo Knative
 
 This is a Repository of sample in order to illustrate Knative
 
