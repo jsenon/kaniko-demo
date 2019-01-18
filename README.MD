@@ -24,6 +24,6 @@ Functionalities demo are available in demo folder
 
 ## TODO
 
-- [ ] Demo of Autoscalling
-- [ ] Demo of Traffic spliting 
+- [x] Demo of Autoscalling
+- [x] Demo of Traffic spliting 
 - [ ] Demo of Knative Event
