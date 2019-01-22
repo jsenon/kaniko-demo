@@ -16,7 +16,7 @@ Functionalities demo are available in demo folder
 - [Demo4](demo4/README.MD): Demonstrate autoscalling
 - [Demo5](demo5/README.MD): Demonstrate traffic splitting
 - [Demo6](demo6/README.MD): Demonstrate event
-- [Demo7](demo7README.MD): Use your AWS Lambda code, build it and serve it on cluster with knative without dockerfile
+- [Demo7](demo7/README.MD): Use your AWS Lambda code, build it and serve it on cluster with knative without dockerfile
 
 ## Prerequisite
 
