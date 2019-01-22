@@ -20,7 +20,7 @@ spec:
             name: kaniko-custom-go
             arguments:
               - name: IMAGE
-                value: docker.io/jsenon/knative-demo-demo7:latest
+                value: docker.io/jsenon/knative-demo-demo7
       revisionTemplate:
         spec:
           container:
