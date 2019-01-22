@@ -48,6 +48,6 @@ spec:
   - args:
     - --context=/workspace/${DIRECTORY}
     - --dockerfile=/workspace/${DIRECTORY}/Dockerfile
-    - --destination=docker.io/jsenon/${IMAGE}:${TAG}
+    - --destination=${IMAGE}:${TAG}
     image: gcr.io/kaniko-project/executor
     name: export
